@@ -249,7 +249,7 @@
 		text-align: center;
 	}
 	.navigation-menu > li > a {
-		color:#222;
+		color:#06373A;
 		padding:15px;
 		line-height:1.2;
 	}
@@ -259,6 +259,7 @@
 		background: rgba(230, 230, 230, 0.25);
 	}
 	.navbar-nav li a:after {
+		background-color: #31c1bf;
 		display:none;
 	}
 	.nav-box {
@@ -395,7 +396,7 @@
 	  width: 100%;
 	  height: 6px;
 	  border-radius: 3px;
-	  background-color: rgba(250,250,250,0.25);
+	  background-color: #06373A;
 	  position: relative;
 	}
 	.input-field {

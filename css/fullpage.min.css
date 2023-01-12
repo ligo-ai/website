@@ -8,6 +8,15 @@
  *
  * Copyright (C) 2018 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo
  */
+ @font-face {
+    font-family: 'Anita';
+    src: url(../fonts/anita.eot);
+    src: url(../fonts/anita.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/anita.otf) format('otf'),
+         url(../fonts/anita.svg#anita) format('svg'),
+         url(../fonts/anita.woff) format('woff'),
+         url(../fonts/anita.woff2) format('woff2');
+  }
 
 .fp-enabled body,
 html.fp-enabled {
@@ -218,7 +227,7 @@ html.fp-enabled {
     top: -2px;
     color: #fff;
     font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-family: Anita, arial, helvetica, sans-serif;
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;

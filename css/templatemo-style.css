@@ -24,6 +24,16 @@ CSS SITEMAP >>>>
 /*==============================================
 01. GENERAL CSS
 ================================================*/
+@font-face {
+  font-family: 'Anita';
+  src: url(../fonts/anita.eot);
+  src: url(../fonts/anita.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/anita.otf) format('otf'),
+       url(../fonts/anita.svg#anita) format('svg'),
+       url(../fonts/anita.woff) format('woff'),
+       url(../fonts/anita.woff2) format('woff2');
+}
+
 
 html,
 body {
@@ -37,7 +47,7 @@ body {
   font: 16px/1.6 'Raleway', Arial, Helvetica, sans-serif;
   color: #fff;
   text-align:center;
-  background: #222;
+  background: #06373A;
 }
 img {
   border: 0;
@@ -100,7 +110,13 @@ h2 {
 }
 h3 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 200;
+  font-family: 'Anita';
+}
+.anita-text{
+  color: #1be2df;
+  font-size: 24px;
+  font-family: Anita, Arial, Helvetica, sans-serif;
 }
 h4 {
   font-size: 22px;
@@ -152,7 +168,7 @@ video {
   bottom: 0;
 }
 .wrapper-background-dark:after {
-  background: #222;
+  background: #06373A;
   opacity:0.95;
 }
 .section-inner {
@@ -170,7 +186,7 @@ video {
 
 .btn {
   background: #fff;
-  color: #222;
+  color: #06373A;
   text-align:center;
   line-height:52px;
   padding:0 35px;
@@ -203,14 +219,14 @@ video {
 }
 .btn.btn-outline:hover, .btn.btn-outline:focus {
   background:#fff;
-  color:#222;
+  color:#06373A;
 }
 .btn.btn-dark {
-  color: #222;
-  border-color: #222;
+  color: #06373A;
+  border-color: #06373A;
 }
 .btn.btn-dark:hover, .btn.btn-dark:focus {
-  background: #222;
+  background: #06373A;
   color: #fff;
 }
 .owl-carousel .owl-stage {
@@ -330,9 +346,21 @@ a#logo {
   margin-top: 1px;
 }
 
-.ligo-brand{
- font-weight: 200;
+.icons-logo {
+  color: #117c7c;
+  width: 48px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
+
+.twt {
+  color: #117c7c;
+}
+
+/* .ligo-brand{
+ font-weight: 200;
+} */
 
 .navbar-brand {
  display: flex;
@@ -361,7 +389,7 @@ a#logo {
   content:'';
   display:block;
   height: 2px;
-  background:#fff;
+  background: #31c1bf;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   -webkit-transform:scale(0);
@@ -413,8 +441,8 @@ a#logo {
   font-size:18px;
 }
 .social-icons li a:hover {
-  color:#1e1e1e;
-  background-color: #fff;
+  color: #06373A;
+  background-color: #1be2df;
 }
 /*==============================================
 04. WELCOME BLOCK CSS
@@ -547,9 +575,10 @@ a {
 #text {
 	display: inline-block;
 	vertical-align: middle;
-	color: #fff;
-  font-size: 24px;
-	letter-spacing: 2px;
+	color: #31c1bf;
+  font-size: 2.2rem;
+  font-family: Anita, Arial, Helvetica, sans-serif;
+	/* letter-spacing: 2px; */
 }
 
 #cursor {
@@ -568,6 +597,19 @@ a {
 	50% { 
 		background-color: #117c7c; 
 	}
+}
+
+.logo-text{
+  font-size: 7rem;
+
+  font-family: Anita, Arial, Helvetica, sans-serif;
+}
+
+.nav-brand-text {
+  margin-left: 5px;
+  font-size: 1.6rem;
+  text-transform: none;
+  font-family: Anita, Arial, Helvetica, sans-serif;
 }
 
 .hero-logo {
@@ -717,7 +759,7 @@ a {
   font-weight: 300;
 }
 .services-list .item {
-  background-color: rgba(250,250,250,0.25);
+  background-color: #06373A;
   border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -794,7 +836,7 @@ a {
   bottom: 0;
   text-align: left;
   padding: 20px;
-  background-color: rgba(250,250,250,0.25);
+  background-color: #06373A;
   width: 100%;
   height: 60px;
   border-top-left-radius: 0px;
@@ -895,23 +937,23 @@ a {
 }
 .form-control.form-control-dark {
   background: rgba(0, 0, 0, 0.1);
-  color: #222;
+  color: #06373A;
   border: none;
 }
 .form-control.form-control-dark::-webkit-input-placeholder {
-  color:#222 !important;
+  color:#06373A !important;
   opacity:0.7;
 }
 .form-control.form-control-dark::-moz-placeholder {
-  color:#222 !important;
+  color:#06373A !important;
   opacity:0.7;
 }
 .form-control.form-control-dark:-ms-input-placeholder {
-  color:#222 !important;
+  color:#06373A !important;
   opacity:0.7;
 }
 .form-control.form-control-dark:-moz-placeholder {
-  color:#222 !important;
+  color:#06373A !important;
   opacity:0.7;
 }
 textarea.form-control {
@@ -945,7 +987,7 @@ textarea.form-control {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 30px;
-  background: rgba(250,250,250,0.25);
+  background: #06373A;
   border-radius: 10px;
   padding: 30px;
   font-weight: 700;
@@ -963,7 +1005,7 @@ textarea.form-control {
 09. TESTIMONOALS BLOCK CSS
 ================================================*/
 .testimonials-section .item {
-  background-color: rgba(250,250,250,0.25);
+  background-color: #06373A;
   padding: 40px;
   border-radius: 10px;
 }
@@ -1025,7 +1067,7 @@ textarea.form-control {
   width: 70%;
   height: 6px;
   border-radius: 3px;
-  background-color: rgba(250,250,250,0.25);
+  background-color: #06373A;
   position: relative;
 }
 .filled-bar {

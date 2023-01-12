@@ -1,7 +1,8 @@
 // List of sentences
 var _CONTENT = [ 
-	"Connecting businesses with the power of A.I.", 
-	"On top of latest blockchain technologies."
+	"Connecting businesses",
+	"with the power of A.I.", 
+	"on top of blockchain."
 ];
 
 // Current sentence being processed
