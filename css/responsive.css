@@ -161,6 +161,7 @@
 	.contact-row {
 		padding: 10px 15px!important;
 		font-size:13px;
+		max-width: 240px;
 		margin-bottom: 15px;
 	}
 	.facts-row > .row > div {
