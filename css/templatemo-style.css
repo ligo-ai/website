@@ -348,8 +348,7 @@ a#logo {
 }
 .navbar {
   padding: 0;
-  max-width: 1440px;
- 
+  max-width: 1200px; 
   margin: 0 auto;
 }
 
@@ -371,10 +370,6 @@ a#logo {
 .twt {
   color: #117c7c;
 }
-
-/* .ligo-brand{
- font-weight: 200;
-} */
 
 .navbar-brand {
  display: flex;
