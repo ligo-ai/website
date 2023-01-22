@@ -101,12 +101,14 @@ h6 {
   line-height: 1.2;
   margin: 0 0 20px;
   font-weight: 600;
-  text-transform:uppercase;
+  text-transform:none;
 }
 h1,
 h2 {
   font-size: 32px;
   font-weight: lighter;
+  text-transform: none;
+  font-family: 'Anita';
 }
 h3 {
   font-size: 26px;
@@ -452,12 +454,29 @@ a#logo {
   color: rgba(255,255,255,1);
   font-size:18px;
 }
+
+.e-mail{
+  font-size: 24px;
+  font-weight: 400;
+}
 .social-icons li a:hover {
   color: #000;
   background-color: #000;
 }
 .socials{
   width: 24px;
+}
+
+.socials1{
+  width: 30px;
+}
+
+.socialz{
+  width: 48px;
+}
+
+.socialzz{
+  width: 36px;
 }
 
 
@@ -493,8 +512,7 @@ a#logo {
 }
 
 .logo-text{
-  font-size: 7rem;
-
+  font-size: 24px;
   font-family: Anita, Arial, Helvetica, sans-serif;
 }
 
@@ -506,11 +524,9 @@ a#logo {
 }
 
 .hero-logo {
-  width: 6vmax;
+  width: 112px;
   margin: 0 auto;
   margin-bottom: 10px;
-
-
 }
 
 .logoz {
@@ -893,6 +909,33 @@ textarea.form-control {
   font-size: 30px;
   display:block;
 }
+.blockss{
+   display: inline-block;
+  }
+
+.contact-rowz {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 120px 10px 30px 10px;
+  border: 3px solid #175B5A;
+  background: transparent;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 360px;
+  max-height: 92px;
+  font-weight: 700;
+}
+.contact-rowz i {
+  width:55px;
+  font-size: 30px;
+  display:block;
+}
 .contact-row i.fa-envelope {
   font-size: 25px;
 }
@@ -992,4 +1035,31 @@ textarea.form-control {
 .terms {
   margin-top: 120px;
   position: bottom;
+}
+
+/*==============================================
+10. FOOTER BLOCK CSS
+================================================*/
+
+
+.site-footer {
+  border-top: 1px solid #00ffff;
+  padding: 2rem ;
+  background-color:#000 ;
+}
+
+.site-footer a {
+  color: var(--footer-text-color);
+  font-weight: var(--font-weight-light);
+  
+}
+
+.site-footer p {
+  font-size: var(--base-font-size);
+  color: var(--footer-text-color);
+}
+
+.contact .fa,
+.site-footer .fa {
+  color: var(--primary-color);
 }
