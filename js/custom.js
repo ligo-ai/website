@@ -76,8 +76,8 @@
                 }
             });
         }
-        if ($('.serv-list').length) {
-            $('.serv-list').owlCarousel({
+        if ($('.services-list').length) {
+            $('.services-list').owlCarousel({
                 loop: true,
                 nav: false,
                 dots: true,
@@ -166,16 +166,6 @@
                 responsiveSlides: true
             });
         }
-        window.addEventListener('load', function(){
-            var newVideo = document.getElementById('myVideo');
-            newVideo.addEventListener('ended', function() {
-                this.currentTime = 0;
-                this.play();
-            }, false);
-        
-            newVideo.play();
-        
-        });
         $(document).on('click', '.navbar-toggle', function() {
             $('.navbar-collapse').slideToggle(300);
             return false;
