@@ -185,7 +185,7 @@ video {
   padding:20px 30px 0;
 }
 .fp-scrollable {
-  height:calc(100vh - 200px) !important;
+  height:auto !important;
 }
 #fp-nav ul li a span {
  display: none;
@@ -193,7 +193,13 @@ video {
 
 .hero-about {
  text-align: left;
+
 }
+
+.roadmap-text {
+  text-align: left;
+
+ }
 
 .nav-text {
   font-family: Anita;
@@ -652,7 +658,7 @@ a#logo {
 }
 
 /*==============================================
-06. SERVICES BLOCK CSS
+06. SERVICES
 ================================================*/
 .title-block {
   padding-top: 120px;
@@ -722,9 +728,20 @@ a#logo {
     background: #fff
 }
 
-/*==============================================
-07. WORK BLOCK CSS
-================================================*/
+/*=====================
+07. ROADMAP
+=================*/
+
+.col-mdr {
+margin-top: 48px;
+
+}
+
+.roadmap-mobile{
+     width:auto;
+     display: none;
+}
+
 .gallery-section {
   text-align: center;
 }

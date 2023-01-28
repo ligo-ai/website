@@ -3,16 +3,25 @@
 		display:block !important;
 		height:auto !important;
 	}
+
 		.logo-text{
 		font-size: 5rem;
 		font-family: Anita, Arial, Helvetica, sans-serif;
 	  }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .desktop-remove{
+		display: none !important;
+	}
 }
 @media only screen and (max-width: 1440px) {
 	.welcome-title {
 		font-size: 100px;
 		margin-bottom:20px;
 	}
+
 	.next-section {
 	}
 	.welcome-title:before {
@@ -365,6 +374,12 @@
 @media only screen and (max-width: 575px) {
 	.welcome-title {
 		font-size: 40px;
+	}
+    .mobile-remove{
+		display: none !important;
+	}
+	.roadmap-text{
+		margin-top: 80px;
 	}
 	.hero-logo {
 		width: 60px;
