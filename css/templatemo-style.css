@@ -473,6 +473,20 @@ a#logo {
   width: 30px;
 }
 
+.envelope{
+  width: 30px;
+  margin: 0 20px;
+}
+.envelope2{
+  width: 24px;
+
+}
+.email-text{
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 20px;
+
+}
 .socialz{
   width: 48px;
 }
@@ -911,7 +925,8 @@ textarea.form-control {
   align-items: center;
   margin-top: 120px;
   margin-bottom: 30px;
-  background: #06373A;
+  background: transparent;
+  border: 1px solid #31c1bf;
   border-radius: 10px;
   padding: 30px;
   max-width: 360px;
@@ -957,8 +972,11 @@ textarea.form-control {
 09. TESTIMONOALS BLOCK CSS
 ================================================*/
 .testimonials-section .item {
-  background-color: #06373A;
+  background-color: transparent;
+  margin: auto;
+  border: 2px solid #175B5A;
   padding: 40px;
+  width: 480px;
   border-radius: 10px;
 }
 .testimonials-section .item img {
