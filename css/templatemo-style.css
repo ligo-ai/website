@@ -472,7 +472,9 @@ a#logo {
 .socials1{
   width: 30px;
 }
-
+.contact-text{
+  font-family: Anita;
+}
 .envelope{
   width: 30px;
   margin: 0 20px;
