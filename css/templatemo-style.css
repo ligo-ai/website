@@ -475,6 +475,10 @@ a#logo {
 .contact-text{
   font-family: Anita;
 }
+.roadmap-disclaimer{
+  font-family: Anita;
+  margin-top: 40px;
+}
 .envelope{
   width: 30px;
   margin: 0 20px;

@@ -170,6 +170,7 @@
 	.contact-box h4 {
 		font-size:20px;
 	}
+	
 	.contact-row {
 		padding: 10px 15px!important;
 		font-size:13px;
@@ -202,6 +203,11 @@
 	.skills-ul {
 		top: 0;
 	}
+	.roadmap-disclaimer{
+		font-size: 14px;
+		font-family: Anita;
+		margin-top: 10px;
+	  }
 	.contact-row {
 		padding: 42px 45px;
 	}
@@ -386,7 +392,11 @@
 		margin: 0 auto;
 		margin-bottom: 10px;
 	  }
-
+	  .roadmap-disclaimer{
+		font-size: 14px;
+		font-family: Anita;
+		margin-top: 10px;
+	  }
 		  
 	.logo-text{
 		font-size: 3rem;
@@ -432,6 +442,9 @@
 	  border-radius: 3px;
 	  background-color: #06373A;
 	  position: relative;
+	}
+	.email-text{
+		font-size: 14px;
 	}
 	.input-field {
 		margin-bottom: 15px;
