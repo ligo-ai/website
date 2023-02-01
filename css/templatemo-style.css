@@ -908,9 +908,11 @@ textarea.form-control {
 }
 .contact-box {
   text-align:left;
+  
 }
 .contact-box h4 {
   font-size:24px;
+  
 }
 .contact-box h4:after {
   content:'';
@@ -920,6 +922,25 @@ textarea.form-control {
   background:#fff;
   margin:12px 0;
 }
+
+.footer-links {
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-link-item{
+margin: 20px;
+padding-top: 20px;
+}
+
+.copyright-footer{
+margin: 15px;
+}
+
 .contact-row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -929,8 +950,7 @@ textarea.form-control {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 120px;
-  margin-bottom: 30px;
+  margin: 80px 0px;
   background: transparent;
   border: 1px solid #31c1bf;
   border-radius: 10px;
