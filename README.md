@@ -1,1 +1,3 @@
-## Ligo AI Website
+# Ligo AI
+
+## Welcome to the future
