@@ -400,6 +400,7 @@ a#logo {
   display:block;
   font-weight: 500;
   opacity: 0.9;
+  font-family: Anita;
 }
 .navbar-nav li a:after {
   content:'';
