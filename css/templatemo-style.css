@@ -778,6 +778,15 @@ margin-top: 48px;
   z-index: 9;
   border-radius: 10px;
 }
+
+.serv-text {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: none;
+  font-weight: lighter;
+  font-family: Anita;
+}
+
 .portfolio-item .thumb-inner {
   position: absolute;
   z-index: 99;
