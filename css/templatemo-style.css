@@ -1085,7 +1085,7 @@ margin: 15px;
 .presale-status {
   position: absolute;
   z-index: 99;
-  width: 15%;
+  width: 0px;
   height: 6px;
   background-color: #31c1bf;
   border-radius: 3px;
@@ -1093,7 +1093,7 @@ margin: 15px;
 .testnet-status {
   position: absolute;
   z-index: 99;
-  width: 30%;
+  width: 0px;
   height: 6px;
   background-color: #31c1bf;
   border-radius: 3px;
@@ -1101,7 +1101,7 @@ margin: 15px;
 .mainnet-status {
   position: absolute;
   z-index: 99;
-  width: 13%;
+  width: 0px;
   height: 6px;
   background-color: #31c1bf;
   border-radius: 3px;
@@ -1109,7 +1109,7 @@ margin: 15px;
 .mvp-status {
   position: absolute;
   z-index: 99;
-  width: 15%;
+  width: 40%;
   height: 6px;
   background-color: #31c1bf;
   border-radius: 3px;
