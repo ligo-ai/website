@@ -154,13 +154,18 @@ figure {
 }
 
 .presale-banner{
-  margin: 0 0 20px 0;
+
   height: 4vh;
   border: 1px solid #1be2df;
   box-shadow: inset 0 0 20px #1be2df6e;
 }
 
-
+.presale-text {
+  margin-top: 5px;
+  color: #1be2df;
+  text-align: center;
+  font-family: Anita;
+}
 
 video {
   position: fixed;
