@@ -153,7 +153,12 @@ figure {
   opacity: 1 !important;
 }
 
-
+.presale-banner{
+  margin: 0 0 20px 0;
+  height: 4vh;
+  border: 1px solid #1be2df;
+  box-shadow: inset 0 0 20px #1be2df6e;
+}
 
 
 
@@ -337,7 +342,7 @@ video {
 02. HEADER CSS
 ================================================*/
 #header {
-  padding:20px 0;
+
   position: fixed;
   left:0;
   right:0;
