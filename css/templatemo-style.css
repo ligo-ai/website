@@ -215,15 +215,35 @@ video {
 .nav-text {
   font-family: Anita;
 }
+
+.rippleSelect {
+  font-size: 12px;
+  min-width: 68px;
+  height: 22px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #00ffff;
+  border: 1px solid #00ffffa4;
+  background-color: transparent;
+  background-position: center;
+  transition: background 0.4s;
+  margin: 0 10px;
+}
+
+.rippleSelect:hover {
+  color: #000;
+  text-transform: uppercase;
+  background: #00ffff radial-gradient(circle, transparent 1%, red 1%)
+    center/15000%;
+}
+
 .btn {
-  background: #fff;
+  background: #31c1bf;
   color: #06373A;
   text-align:center;
-  line-height:52px;
-  padding:0 35px;
   border-radius: 0px;
   text-transform:uppercase;
-  font-weight:600;
+  font-weight:400;
   border:2px solid transparent;
   border-radius: 10px;
 }
@@ -237,7 +257,7 @@ video {
   outline:none;
 }
 .btn.btn-xs {
-  line-height:34px;
+  line-height:16px;
   font-size:12px;
   padding:0 20px;
   font-weight: 500;
